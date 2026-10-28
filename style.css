@@ -28,12 +28,13 @@ p, button{
     padding: 50px 230px;
 }
 
+
 .sections:nth-child(odd){
-    color: rgb(33, 33, 226);
+    background-color: rgb(33, 33, 226);
 }
 
 .sections:nth-child(odd) h3{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /*=======CABEÇALHO=======*/
@@ -72,7 +73,7 @@ nav a{
 
   nav a:hover{
     background-color: rgb(20, 48, 209);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header button{
@@ -141,7 +142,7 @@ header button:active{
     padding: 10px 20px;
     border: 0;
     background-color: rgb(33, 33, 226);
-    color: white;
+    color: rgb(252, 252, 252);
     transition: all 0.2s ease-in;
 }
 
@@ -155,7 +156,7 @@ header button:active{
 #stacks{
     display: flex;
     margin: 30px auto 0;
-    width: 80%;
+    width: 100%;
     padding: 0;
     justify-content: space-between;
     align-items: center;
@@ -167,20 +168,21 @@ header button:active{
     height: 120px;
     padding: 10px;
     border-radius: 30px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
     transition: all 0.3s ease-in-out;
+    margin-right: 20px;
 }
 
 #stacks li:hover{
     margin-top: -20px;
-    box-shadow: -10px 20px rgba(53, 46, 46, 0.404);
+    box-shadow: -10px 20px rgba(199, 199, 201, 0.404);
 }
 
 #stacks li img{
-    width: 60px;
-    margin: 10px 0;
+    width: 70px;
+    margin: 12px 0;
 }
 
 
@@ -199,7 +201,7 @@ header button:active{
 .card{
     flex: 0 0 280px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     padding: 20px;
 }
@@ -261,7 +263,7 @@ header button:active{
 }
 
 .formulario label{
-    color: rgb(37, 31, 214);
+    color: rgb(252, 252, 252);
     font-weight: bold;
 }
 
@@ -277,7 +279,7 @@ header button:active{
     padding: 10px;
     border: none;
     border-radius: 50px;
-    background-color: rgb(173, 174, 201);
+    background-color: rgb(255, 255, 255);
     color: rgb(36, 39, 202);
     font-size: 16px;
     font-weight: bold;
@@ -298,7 +300,7 @@ footer{
     align-items: center;
     gap: 10px;
     padding: 40px 20px;
-    background-color: #04147e;
+    background-color: #181922;
 }
 
 footer img{
@@ -354,4 +356,3 @@ body.escuro #hero{
 body.escuro .card{
     background-color: #1e1e1e;
 }
-
