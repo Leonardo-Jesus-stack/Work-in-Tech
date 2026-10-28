@@ -38,3 +38,18 @@ botaoVoltar.addEventListener("click", function () {
         carrossel.scrollBy(-340, 0);
     }
 });
+
+// ===== 3. FORMULÁRIO DE CONTATO =====
+
+const formulario = document.getElementById("formulario");
+const resposta = document.getElementById("resposta");
+
+formulario.addEventListener("submit", function (evento) {
+    evento.preventDefault();
+
+    const nome = document.getElementById("nome").value;
+
+    resposta.textContent = "Obrigado, " + nome + "! Sua mensagem foi enviada.";
+
+    formulario.reset();
+});
