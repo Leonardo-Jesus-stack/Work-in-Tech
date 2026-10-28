@@ -114,7 +114,7 @@ header button:active{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("./fundobranco.png");
+    background-image: url("./img/fundobranco.png");
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
