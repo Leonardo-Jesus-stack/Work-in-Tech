@@ -350,7 +350,7 @@ body.escuro header button:hover img{
 }
 
 body.escuro #hero{
-    background-image: url(./fundo-preto.png);
+    background-image: url(./img/fundo-preto.png);
 }
 
 body.escuro .card{
